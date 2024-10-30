@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Fonction pour démarrer le timer jusqu'à une heure précise
     function startTimer() {
         const targetHour = new Date();
-        targetHour.setHours(15, 30, 0);                    // Définit l'heure cible à 17h00
+        targetHour.setHours(14, 48, 0);                    // Définit l'heure cible à 17h00
 
         const timerInterval = setInterval(() => {
             const now = new Date();
@@ -112,6 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "verte": "#2ecc71"
         };
         document.body.style.backgroundColor = colors[teamName];
-        // document.body.innerHTML = `<h1 style="color: white;">Tu es dans l'équipe ${teamName} !</h1>`;
+        document.body.innerHTML = `<h1 style="color: white; text-transform: uppercase;">${teamName}</h1>`;
     });
 });
