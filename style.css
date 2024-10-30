@@ -1,0 +1,77 @@
+/* Rendre la police Helvetica par défaut */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Style de l'image pour qu'elle soit responsive */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Style commun pour les boutons */
+button {
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Coins arrondis pour un style moderne */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style pour le texte bleu par défaut des boutons sur iOS */
+button:focus {
+    outline: none;
+    color: #fff; /* Force le texte blanc même en cas de focus */
+}
+
+/* Effet au survol pour les écrans non tactiles */
+button:hover {
+    background-color: #333; /* Fond un peu plus clair au survol */
+}
+
+/* Style pour le menu déroulant et le timer */
+select, #timer {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Style pour le timer */
+#timer {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+/* Style responsive pour les petits écrans */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    select, button {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    #timer {
+        font-size: 1em;
+    }
+}
