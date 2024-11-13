@@ -1,6 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Liste de prénoms prédéfinie
-    const names = ["Alexandre", "Ana", "Angéla", "Angèle", "Arthur", "Baptiste", "Boris", "Dylan", "Elena", "Emma", "Florence", "Grace", "Hendy", "Jacky", "Julie", "Kingsley", "Lénaïck", "Marie-Ange", "Mélanie", "Natacha", "Nathan M.", "Nicolas", "Rubben's", "Parfait", "Priscilla", "Rafael", "Lionel", "Thomas", "Sophie", "Alice", "Marie", "Jean", "Marc", "Luc", "Emma", "Paul", "Julie", "Nathalie", "Caroline", "Antoine", "Isabelle"];
+    const names = [
+        "Alexandre", "Ana", "Angéla", "Angèle", "Arthur",
+        "Baptiste", "Boris", "Dylan", "Elena", "Emma",
+        "Florence", "Grace", "Hendy", "Jacky", "Julie",
+        "Kingsley", "Lénaïck", "Marie-Ange", "Mélanie", "Natacha",
+        "Nathan M.", "Nicolas", "Rubben's", "Parfait", "Priscilla",
+        "Rafael", "Lionel", "Thomas", "Sophie", "Alice",
+        "Marie", "Jean", "Marc", "Luc", "Emma",
+        "Paul", "Julie", "Nathalie", "Caroline", "Antoine",
+        "Isabelle"
+    ];
     
     // Trier les prénoms par ordre alphabétique
     names.sort((a, b) => a.localeCompare(b));
