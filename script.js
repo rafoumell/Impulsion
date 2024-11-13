@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Vivien": "couleur",
         "Wendy": "couleur",
         "Yasmine": "couleur", 
-        "-----------"; "couleur",
+        "-----------": "couleur",
         "Lionel": "bleue",
         "Thomas": "rouge",
         "Sophie": "jaune",
