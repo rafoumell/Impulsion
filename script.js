@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Liste de prénoms prédéfinie
     const names = [
-        "Alexandre", "Alexis", "Ana", "Angéla", "Angèle",
+        "Alexandre", "Alexis", "Ana", "Angéla", "Angèle", "Anne-Lyse",
         "Anne-Lise", "Ariel", "Arthur", "Baptiste", "Boris",
         "Déva", "Dylan", "Elena", "Emma", "Evan", 
         "Florence", "Grace", "Hannah", "Hendy",
@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Alexis": "bleue",
         "Ana": "jaune",
         "Anne-Lise" : "verte",
+        "Anne-Lyse": "jaune",
         "Angéla": "jaune",
         "Angèle": "jaune",
         "Ariel" : "rouge",
