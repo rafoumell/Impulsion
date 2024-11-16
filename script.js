@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Fonction pour démarrer le timer jusqu'à une heure précise
     function startTimer() {
         const targetHour = new Date();
-        targetHour.setHours(16, 0, 0); // Définit l'heure cible à 16h00
+        targetHour.setHours(8, 0, 0); // Définit l'heure cible à 16h00
 
         const timerInterval = setInterval(() => {
             const now = new Date();
